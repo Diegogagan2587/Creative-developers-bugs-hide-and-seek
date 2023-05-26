@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <script src="./js/navigation.js" defer></script>
+    <title>Home Page Dev Summit</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar" class="nav-bar">
+            <ul id="nav-bar-1" class="top-bar">
+                <li><a href="#"><img src="./img/icons/face-icon.png" alt="facebook icon"></a></li>
+                <li><a href="#"><img src="./img/icons/twitter-icon.png" alt="twitter icon"></a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Logout</a></li>
+                <li id="li-exit" class="hidden" > <a href="#" id="exitMobile">Exit</a> </li>
+            </ul>
+            <div class="main-bar">
+                <a href="#" id="hamburger-button">
+                    <img class="icon-hamburguer"
+                     src="./img/icons/hamburguer-icon.png"
+                     alt="Display Navigation Menu">
+                </a>
+                <a class="wrapper-summit-logo" href="./index.html" >
+                    <img class="summit-logo" src="./img/icons/dev-summit-logo.png" alt="summit logo">
+                </a>
+                <ul id="nav-bar-2" class="">
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li><a href="#main-program">Program</a></li>
+                    <li><a href="#partners">Partner</a></li>
+                    <li><a href="#featured-speakers">featured</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <div id="header-container" class="header-container">
+            <span>"Hi! Sharing how we code!"</span>
+            <h1>Creative Developers Global Summit 2024</h1>
+            <p class="event-description">
+                A joyful celebration believing in the value of learning to code, creating a positive change with
+                people from over 80 countries is taking place in October, in CDMX.
+            </p>
+            <p class="dates">2024.05.10 - 2024.05.16</p>
+            <p class="foundation">Global developer foundation.</p>
+        </div>
+
+    </header>
+    <section id="main-program" class="main-program">
+        <h2>
+            Main Program
+        </h2>
+        <hr>
+        <ul>
+            <li class="activity">
+                <img src="./img/main-program/program_icon_01.png" alt="speaker icon">
+                <h3>Lecture</h3>
+                <div class="description">
+                    <p>
+                        Listen to the speakers from various countries about 
+                        how to become a good software developer.
+                    </p>
+                </div>
+
+            </li>
+            <li class="activity">
+                <img src="./img/main-program/program_icon_02.png" alt="board icon">
+                <h3>Code Exhibition</h3>
+                <div class="description">
+                    <p>
+                        Appreciate various creations applying diferent programming Paradigms.
+                    </p>
+                </div>
+
+            </li>
+            <li class="activity">
+                <img src="./img/main-program/program_icon_03.png" alt="Chat icon">
+                <h3>Forum</h3>
+                <div class="description">
+                    <p>
+                        Have the time to share your thoughts and opinions with experts for each topic.
+                    </p>
+                </div>
+
+            </li>
+            <li class="activity">
+                <img src="./img/main-program/program_icon_04.png" alt="Board Icon">
+                <h3>Workshop</h3>
+                <div class="description">
+                    <p>
+                        Try creating your own work using open source license rather than just watching at it.
+                    </p>
+                </div>
+
+            </li>
+            <li class="activity">
+                <img src="./img/main-program/program_icon_05.png" alt="circle icon">
+                <h3>Dev Ignite</h3>
+                <div class="description">
+                    <p>
+                        get opportunities to network with Dev affiliates around the world, also after the summit.
+                    </p>
+                </div>
+
+            </li>
+        </ul>
+        <p id="see-whole"><a href="#">SEE THE WHOLE PROGRAM</a></p>
+        <button type="button">Join Global Summit 2024</button>
+    </section>
+    <section id="featured-speakers" class="featured-speakers">
+        <h2>Featured Speakers</h2>
+        <hr>
+        <ul class="speakers-ul">
+
+            
+        </ul>
+        <button id="showButton" type="button" class="">
+            <span>more</span><img class="arrow-icon" src="./img/icons/arrow_down.png" alt="arrow down icon">
+        </button>
+        <button id="lessButton" type="button" class="hidden">
+            <span>less</span><img class="arrow-icon" src="./img/icons/arrow_up.png" alt="arrow up icon">
+        </button>
+    </section>
+    <section id="partners" class="partners">
+        <h2>Partner</h2>
+        <hr>
+        <ul>
+            <li>
+                <img src="./img/partners/mozilla 1.png" alt="mozilla icon">
+            </li>
+            <li>
+                <img src="./img/partners/googlekorea 1.png" alt="google icon">
+            </li>
+            <li>
+                <img src="./img/partners/naver 1.png" alt="naver icon">
+            </li>
+            <li>
+                <img src="./img/partners/daumkakaologo 1.png" alt="daumkakao icon">
+            </li>
+            <li>
+                <img src="./img/partners/airbnb 1.png" alt="airbnb icon">
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <div class="footer-logo">
+            <img class="logo-img" src="./img/summit-logo.png" alt="summit logotype">
+            <div class="organization">
+                <p>Creative Developers</p>
+                <p>summit 2024</p>
+            </div>
+        </div>
+        <p class="rights">2024 Creative Developers. Some Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
+<button></button>

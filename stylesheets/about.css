@@ -1,0 +1,345 @@
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -- Start header section--  */
+.header-container {
+  background: url(../img/mobile-about-background.png);
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container h1 {
+  text-align: center;
+}
+
+.header-container .event-description {
+  color: black;
+  padding-top: 8%;
+  line-height: 6.66vw;
+  text-align: center;
+}
+
+.header-container .foundation {
+  text-align: center;
+}
+
+.header-container .email {
+  color: #515151;
+  margin-top: 2%;
+  font-size: 3.2vw;
+  font-weight: bold;
+}
+
+/* -- Ends header section--  */
+
+/* -- Start section logo info --  */
+
+.section-logo-info {
+  padding-left: 2.8%;
+  padding-right: 2.8%;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  text-align: center;
+}
+
+.section-logo-info h2 {
+  width: 65.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5vw;
+  padding: 0;
+  color: #2c2c2c;
+}
+
+.section-logo-info .logo-history {
+  color: #838383;
+  font-size: 3.5vw;
+  line-height: 5vw;
+  font-weight: bold;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.section-logo-info .logo-summit {
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.logo-summit img {
+  width: 35%;
+}
+
+.logo-summit .text-container {
+  width: 65%;
+  color: #2c2c2c;
+}
+
+.logo-summit .text-container h3 {
+  font-size: 7vw;
+}
+
+.logo-summit .text-container span {
+  font-size: 6vw;
+}
+
+/* -- Ends section logo info --  */
+
+/* -- Start Past Summits */
+
+.previous-summit-section {
+  padding-left: 2.8%;
+  padding-right: 2.8%;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  margin-bottom: 2vw;
+}
+
+.previous-summit-section h2 {
+  padding-top: 8.9vw;
+  padding-bottom: 2.6vw;
+  padding-left: 13.6%;
+  padding-right: 13.6%;
+  font-size: 4.2vw;
+  color: #2c2c2c;
+}
+
+.previous-summit-section .summits-introduction {
+  color: #838383;
+}
+
+.previous-summit-section .summit-container {
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 6.66vw;
+  justify-content: center;
+}
+
+.previous-summit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 49.18vw;
+  color: #fff;
+}
+
+.previous-summit .text-container {
+  background-color: rgba(255, 80, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summit-background-01 {
+  background-image: url(../img/summitbackground01-priscilla-du-preez-k3RZK--S-kk-unsplash.jpg);
+}
+
+.summit-background-02 {
+  background-image: url(../img/summit-background02-laura-heimann-gyLrgS00gvw-unsplash.jpg);
+}
+
+/* -- Ends Past Summits */
+
+/* -- Start Parnert Section -- */
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  background-color: #414246;
+  color: #fff;
+  padding-top: 5.3vw;
+  padding-bottom: 9.3vw;
+}
+
+.partners ul {
+  display: flex;
+  gap: 8%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* -- Ends Parnert Section -- */
+
+/* -- Start Footer Section -- */
+
+footer {
+  display: flex;
+  background-color: white;
+  color: #272a31;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 7.2vw;
+  padding-bottom: 7.2vw;
+}
+
+.footer-logo img {
+  width: 10vw;
+}
+
+.footer-logo p {
+  font-size: 3vw;
+}
+
+footer .rights {
+  width: 50%;
+  padding-right: 5%;
+  font-size: 2.6vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* -- Ends Footer Section -- */
+
+/* -------------------------------------Ends Mobile Version------------------------------------- */
+@media (min-width: 768px) {
+  /* Header section */
+  .header-container {
+    background: url(../img/desktop/desktop-about-header-bakcground.png);
+    background-size: cover;
+    padding-left: 17.95vw;
+    padding-right: 17.95vw;
+    padding-top: 8.01vw;
+  }
+
+  .header-container .event-description {
+    font-size: 0.97vw;
+    line-height: 1.75vw;
+  }
+
+  .header-container .foundation {
+    font-size: 1.11vw;
+  }
+
+  .header-container .email {
+    font-size: 1.18vw;
+  }
+
+  /* ends header section */
+
+  /* start section logo information */
+  .section-logo-info {
+    padding-left: 23.68vw;
+    padding-right: 23.68vw;
+    padding-top: 4.51vw;
+    padding-bottom: 4.51vw;
+  }
+
+  .section-logo-info h2 {
+    font-size: 2.08vw;
+    width: 100%;
+  }
+
+  .section-logo-info .logo-history {
+    font-size: 1.11vw;
+    line-height: 2vw;
+  }
+
+  .section-logo-info .logo-summit {
+    margin-left: auto;
+    margin-right: auto;
+    width: 37.63vw;
+  }
+
+  .logo-summit .text-container h3 {
+    font-size: 2.75vw;
+  }
+
+  .logo-summit .text-container span {
+    font-size: 2vw;
+  }
+
+  .logo-summit .text-container .date {
+    font-size: 1.25vw;
+  }
+
+  /* Ends section logo information */
+
+  /* start past summits */
+  .previous-summit-section {
+    padding-left: 19.23vw;
+    padding-right: 19.23vw;
+  }
+
+  .previous-summit-section h2 {
+    font-size: 2.08vw;
+    padding-top: 0;
+  }
+
+  .previous-summit-section .summits-introduction {
+    font-size: 1.11vw;
+  }
+
+  .previous-summit-section .summit-container {
+    flex-direction: row;
+    gap: 2%;
+  }
+
+  .previous-summit {
+    height: 16.38vw;
+  }
+
+  /* ends past summits */
+
+  /* start partners section */
+  .partners {
+    display: none;
+  }
+
+  /* end partners section */
+
+  /* footer */
+  footer {
+    height: 17.01vw;
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+
+  .footer-logo {
+    padding-left: 0;
+    width: 17.36vw;
+  }
+
+  .footer-logo img {
+    background-color: #fff;
+    padding: 1%;
+    padding-top: 3%;
+    border-radius: 5px;
+    height: 2.93vw;
+    width: fit-content;
+  }
+
+  .footer-logo .organization {
+    padding-left: 2%;
+  }
+
+  .footer-logo .organization p {
+    font-weight: bold;
+    font-size: 1.25vw;
+  }
+
+  footer .rights {
+    width: 47.43vw;
+    padding-left: 5%;
+    font-size: 0.75vw;
+    font-weight: bold;
+  }
+}
